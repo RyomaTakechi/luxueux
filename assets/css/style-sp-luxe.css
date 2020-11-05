@@ -1,0 +1,297 @@
+header {
+    display: none;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+
+.pc-img {
+    display: none;
+}
+
+.sp-img {
+    display: 100%;
+}
+
+.img-kaiten {
+    transform: rotate(90deg);
+}
+
+.sub-title {
+    margin-bottom: 5.5rem;
+    display: inline-block;
+    position: relative;
+}
+
+.sub-title:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px; /*下線の上下位置調整*/
+  display: inline-block;
+  width: 3rem; /*下線の幅*/
+  height: 2px; /*下線の太さ*/
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%); /*位置調整*/
+  background-color: #707070; /*下線の色*/
+}
+
+.text-center {
+    text-align: center;
+}
+
+.small-text {
+    font-size: 1.5rem;
+}
+
+.strong-text {
+    margin: 4rem 0 2rem;
+    color: #FF0000;
+    font-size: 2.5rem;
+}
+
+/* body */
+.container {
+    padding: 3rem 2rem;
+}
+
+.container1 {
+    padding: 3rem 2rem;
+}
+
+/* luxe-x */
+.title {
+    font-size: 1.8rem;
+}
+
+.luxe-img {
+    max-width: 32rem;
+    max-height: 23rem;
+}
+
+.luxe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+#luxe-text1 {
+    margin-bottom: 6rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+#luxe-text2 {
+    margin-bottom: 3.4rem;
+    font-size: 1.8rem
+}
+
+#luxe-text3 {
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+}
+
+#luxe-text4 {
+    line-height: 2.4rem;
+}
+
+#luxe-text5 {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+/* hikaku */
+#hikaku {
+}
+
+.hikaku-img {
+    width: 32rem;
+    height: 32rem;
+}
+
+#hikaku-text1 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.hikaku-text2 {
+    margin-bottom: 1.6rem;
+}
+
+.hikaku-text3 {
+    margin-top: 2.9rem;
+    margin-bottom: 1.6rem;
+    font-size: 1.8rem;
+}
+
+.hikaku-text4 {
+    text-align: center;
+}
+
+.hikaku-container {
+
+}
+
+.hikaku-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hikaku-content2 {
+    margin-top: 5rem;
+}
+
+/* 抗酸化 */
+.red-text {
+    margin: 2.9rem 0;
+    font-size: 1.7rem;
+}
+
+.kousannka-img1 {
+    margin: 2rem 0;
+    max-width: 32rem;
+    max-height: 21rem;
+}
+
+.kousannka-img2 {
+    margin-top: 3rem;
+    max-width: 32rem;
+    max-height: 21rem;
+}
+
+.kousanka-container1 {
+    margin-bottom: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kousannka-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kousannka-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#kousan-text1 {
+    margin-bottom: 2.1rem;
+    font-size: 1.5rem;
+}
+
+#kousanka-text2 {
+}
+
+#kousannka-text3 {
+}
+
+#kousan-text4 {
+    text-align: center;
+    margin-bottom: 2.8rem;
+}
+
+/* 光粒子加工 */
+#hikari {
+}
+
+.hikari-img {
+    max-width: 32rem;
+    max-height: 28rem;
+}
+
+.hikari-br {
+    display: block;
+}
+
+.hikari-title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.hikari-sub-title {
+    margin-bottom: 3.3rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.hikari-container {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hikari-text1 {
+    margin-top: 3.2rem;
+}
+
+/* 誘導テキスト */
+.adv-img {
+    max-width: 32rem;
+    max-height: 24rem;
+    margin-bottom: 3.3rem
+}
+
+.adv-text {
+    font-size: 1.8rem;
+    margin-bottom: 3.3rem;
+}
+
+.form-container {
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-text {
+    font-size: 1.5rem;
+}
+
+.form-ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-li {
+    list-style: square;
+    margin-top: 2.3rem;
+    margin-left: 2rem;
+    font-size: 1.4rem;
+}
+
+button {
+    max-width: 32rem;
+    height: 6.5rem;
+    margin: 6rem auto;
+    padding: 2.4rem 4rem;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.4rem;
+    color: #ffffff;
+    background-color: #1B1B1B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

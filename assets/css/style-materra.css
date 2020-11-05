@@ -1,0 +1,312 @@
+/* 全体 */
+html {
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 1.8rem;
+    font-weight: 3.5rem;
+}
+
+span {
+    color: #FF0000;
+}
+
+.pc-img {
+    width: 100%;
+    height: 100%;
+}
+
+.sp-img {
+    display: none;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.sub-title {
+    margin-bottom: 6.65rem;
+    font-size: 1.8rem;
+    display: inline-block;
+    position: relative;
+}
+
+.sub-title:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px; /*下線の上下位置調整*/
+  display: inline-block;
+  width: 3rem; /*下線の幅*/
+  height: 2px; /*下線の太さ*/
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%); /*位置調整*/
+  background-color: #707070; /*下線の色*/
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container1 {
+    padding: 6rem 6rem;
+}
+
+/* マテラパウダー */
+
+.content-title {
+    margin-bottom: 10rem;
+}
+
+.materra-content1 {
+    margin-bottom: 15rem;
+    text-align: center;
+}
+
+.materra-content2 {
+    margin-top: 5rem;
+    display: flex;
+}
+
+.materra-text {
+    margin-left: 3rem;
+}
+
+/* 製造工程 */
+#manu {
+    background-color: #E9E9E8;
+}
+
+.manu-content1 {
+    margin-bottom: 12rem;
+}
+
+.manu-title1 {
+    margin-bottom: 5rem;
+}
+
+.manu-title2 {
+    margin-bottom: 3rem;
+}
+
+.manu-content2 {
+    padding: 6rem;
+    background-color: #FFFFFF;
+}
+
+.manu-text {
+    margin-top: 5rem;
+    text-align: left;
+}
+
+/* 化粧品原料としてのマテラパウダー */
+.mate {
+    padding: 11rem 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mate-title {
+    margin-bottom: 7rem;
+}
+
+.mate-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.mate-content {
+    margin-left: 10rem;
+}
+
+.mate-text1 {
+    font-size: 2rem;
+    margin-bottom: 6rem;
+}
+
+/* 主成分のケイ素とその効果１ */
+.keiso {
+    padding: 9rem 15rem;
+    background-color: #E9E9E8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.keiso-title1 {
+    margin-bottom: 6rem;
+}
+
+.keiso-title2 {
+    margin-top: 8.6rem;
+    margin-bottom: 6rem;
+}
+
+.keiso-content1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.keiso-content2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.keiso-photo1 {
+    margin-right: 5.3rem;
+}
+
+.keiso-photo2 {
+    height: 54.2rem;
+    margin-right: 8.6rem;
+}
+
+.keiso-text-large {
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.keiso-text {
+    margin-bottom: 5rem;
+}
+
+/* 化粧品原料について */
+.cosme {
+    padding: 11.8rem 15.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cosme-title1 {
+    margin-bottom: 5rem;
+}
+
+.cosme-title2 {
+    margin-top: 11.8rem;
+    margin-bottom: 5rem;
+}
+
+.cosme-container1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.cosme-container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cosme-content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cosme-content2 {
+    margin-left: 23.7rem;
+}
+
+.cosme-text-title {
+    margin-bottom: 5rem;
+}
+
+.cosme-texts {
+    display: flex;
+    flex-direction: row;
+}
+
+.cosme-text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cosme-text2 {
+    margin-left: 2.7rem;
+}
+
+.cosme-text3 {
+    margin-left: 11.9rem;
+}
+
+.cosme-moji {
+    margin-bottom: 1.5rem;
+}
+
+/* パウダーの効果 */
+.powder {
+    padding: 6rem 15rem 12.7rem 15rem;
+    background-color: #E9E9E8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.powder-title1 {
+    margin-bottom: 5.7rem;
+}
+
+.powder-title2 {
+    margin-bottom: 4.8rem;
+}
+
+.powder-title3 {
+    margin-bottom: 2.5rem;
+}
+
+.powder-content {
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.powder-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.powder-text1 {
+    margin-left: 4.9rem;
+}
+
+.powder-text2 {
+    margin-left: 5.5rem;
+}
+
+.powder-text3 {
+    margin-bottom: 12.3rem;
+    max-width: 89.9rem;
+}
+
+.powder-text4 {
+    margin-top: 6.6rem;
+    margin-bottom: 11rem;
+    max-width: 93.5rem;
+}
+
+button {
+    margin: 0 auto;
+    padding: 4rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 2.3rem;
+    color: #ffffff;
+    background-color: #1B1B1B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 0;
+}

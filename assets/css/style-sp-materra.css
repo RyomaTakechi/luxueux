@@ -1,0 +1,357 @@
+/* 全体 */
+html {
+    font-size: 62.5%;
+}
+
+header {
+    display: none;
+}
+
+p {
+    font-size: 1.4rem;
+    font-weight: 3rem;
+}
+
+span {
+    color: #FF0000;
+}
+
+.pc-img {
+    display: none;
+}
+
+.sp-img {
+    /* height: 100%; */
+    width: 100%;
+}
+
+.title {
+    font-size: 1.8rem;
+}
+
+.sub-title {
+    font-size: 1.2rem;
+    display: inline-block;
+    position: relative;
+}
+
+.sub-title:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px; /*下線の上下位置調整*/
+  display: inline-block;
+  width: 3rem; /*下線の幅*/
+  height: 2px; /*下線の太さ*/
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%); /*位置調整*/
+  background-color: #707070; /*下線の色*/
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font18 {
+    font-size: 1.8rem;
+}
+
+.container1 {
+    padding: 3rem 2rem;
+}
+
+/* マテラパウダー */
+.materra-img1 {
+    width: 100%;
+}
+.content-title {
+    margin-bottom: 2.7rem;
+}
+
+.materra-content1 {
+    margin-bottom: 5.3rem;
+    text-align: center;
+}
+
+.materra-content2 {
+    margin-top: 2.2rem;
+}
+
+.materra-text {
+    margin-top: 3.5rem;
+}
+
+/* 製造工程 */
+#manu {
+    /* background-color: #E9E9E8; */
+}
+
+.manu-content1 {
+    margin-bottom: 6rem;
+}
+
+.manu-title1 {
+    font-size: 1.8rem;
+    margin-bottom: 2.4rem;
+}
+
+.manu-title2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.6rem;
+}
+
+.manu-content2 {
+    background-color: #FFFFFF;
+}
+
+.manu-text {
+    margin-top: 2.6rem;
+    text-align: left;
+}
+
+/* 化粧品原料としてのマテラパウダー */
+.mate {
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mate-img {
+    max-width: 32rem;
+    max-height: 30rem;
+}
+
+.mate-title {
+    margin-bottom: 2.4rem;
+}
+
+.mate-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mate-content {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mate-text1 {
+    margin-bottom: 3rem;
+}
+
+/* 主成分のケイ素とその効果１ */
+.keiso {
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.keiso-title1 {
+    margin-bottom: 2.4rem;
+    font-size: 1.8rem;
+}
+
+.keiso-title2 {
+    margin-top: 6rem;
+    margin-bottom: 2.4rem;
+}
+
+.keiso-content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.keiso-content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.keiso-photo1 {
+    margin-bottom: 3rem;
+}
+
+.keiso-photo2 {
+    max-width: 32rem;
+    max-height: 35rem;
+    margin-bottom: 3rem;
+}
+
+.keiso-text-large {
+    font-size: 1.5rem;
+    margin-bottom: 1.7rem;
+}
+
+.keiso-text {
+    margin-bottom: 3rem;
+}
+
+/* 化粧品原料について */
+.cosme {
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cosme-title1 {
+    margin-bottom: 3rem;
+}
+
+.cosme-title2 {
+    margin-bottom: 2rem;
+}
+
+.cosme-title3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cosme-img1 {
+    height: 37rem;
+    width: 26rem;
+}
+
+.cosme-container1 {
+
+}
+
+.cosme-container2 {
+}
+
+.cosme-content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cosme-content2 {
+    margin-bottom: 3.2rem;
+}
+
+.cosme-text-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.cosme-texts {
+    display: flex;
+    flex-direction: row;
+}
+
+.cosme-text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cosme-text2 {
+    margin-left: 5rem;
+}
+
+.cosme-text3 {
+    margin-top: 3rem;
+}
+
+.cosme-moji {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+/* パウダーの効果 */
+.powder {
+    padding: 2rem 3rem;
+    /* background-color: #E9E9E8; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.powder-title1 {
+    margin-bottom: 2rem;
+}
+
+.powder-title2 {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+.powder-title3 {
+    margin-top: 6rem;
+    margin-bottom: 3.4rem;
+}
+
+.powder-img1 {
+    text-align: center;
+    max-width: 24rem;
+    max-height: 49rem;
+}
+
+.powder-img2 {
+    text-align: center;
+    max-width: 24rem;
+    max-height: 49rem;
+}
+
+.powder-img3 {
+    max-width: 32rem;
+    max-height: 31rem;
+    margin-bottom: 3rem;
+}
+
+.powder-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.powder-content {
+
+}
+
+.powder-text1 {
+    margin-top: 2.7rem;
+}
+
+.powder-text2 {
+    margin-top: 3rem;
+}
+
+.powder-text3 {
+    margin-top: 3rem;
+}
+
+.powder-text4 {
+    font-size: 1.4rem;
+}
+
+button {
+    max-width: 32rem;
+    height: 6.5rem;
+    margin: 6rem auto;
+    padding: 2.4rem 4rem;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.4rem;
+    color: #ffffff;
+    background-color: #1B1B1B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 0;
+}

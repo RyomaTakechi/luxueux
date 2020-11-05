@@ -1,0 +1,302 @@
+html {
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+}
+
+.container {
+    padding: 0 15rem;
+}
+
+.hikari {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sp-img {
+    display: none;
+}
+
+.pc-img {
+    display: block;
+    width: 100%;
+}
+
+.sp-text {
+    display: none;
+}
+
+.pc-text {
+    display: block;
+}
+
+/* hikari1 */
+#hikari1 {
+    margin-top: 6.7rem;
+    margin-bottom: 9.3rem;
+}
+
+.hikari1-img1 {
+    margin-bottom: 8rem;
+}
+
+.hikari1-img2 {
+    width: 50%;
+    max-width: 460px;
+    max-height: 360px;
+}
+
+.sub-title {
+    margin-bottom: 7rem;
+    font-size: 2.2rem;
+    display: inline-block;
+    position: relative;
+}
+
+.sub-title:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px; /*下線の上下位置調整*/
+  display: inline-block;
+  width: 3rem; /*下線の幅*/
+  height: 2px; /*下線の太さ*/
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%); /*位置調整*/
+  background-color: #707070; /*下線の色*/
+}
+
+.hikari1-content1 {
+    margin-bottom: 9rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.hikari1-content1-texts1 {
+    margin-left: 6.8rem;
+}
+
+.hikari1-content1-text1 {
+    margin-bottom: 1.5rem;
+}
+
+/* hikari2 */
+#hikari2 {
+    margin-bottom: 6.3rem;
+}
+
+.hikari2-img1 {
+    margin-right: 9rem;
+    width: 50%;
+    max-width: 470px;
+    max-height: 200px;
+}
+
+.hikari2-img2 {
+    margin-left: 11.9rem;
+    width: 50%;
+    max-width: 39.8rem;
+    max-height: 44.7rem;
+}
+
+.hikari2-content1 {
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hikari2-content2 {
+    margin-bottom: 6.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.hikari2-content2-container1 {
+    margin: 4.5rem 0 4.5rem 4.5rem;
+}
+
+.hikari2-ul {
+    margin: 3rem 0 4.7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hikari2-li {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+
+.hikari2-content2-text2 {
+    margin-left: 10rem;
+}
+
+..hikari2-content2-text3 {
+    max-width: 55.7px;
+}
+
+/* hikari3 */
+#hikari3 {
+    margin-bottom: 6.9rem;
+}
+
+.hikari3-img1 {
+    width: 50%;
+    max-width: 315px;
+    max-height: 314px;
+}
+
+.hikari3-img2 {
+    margin-bottom: 0.5rem;
+    width: 50%;
+    max-width: 162px;
+    max-height: 173px;
+}
+
+.hikari3-img3 {
+    max-width: 419px;
+    max-height: 313px;
+}
+
+/* hikari3-content1 */
+.hikari3-title {
+    margin-bottom: 5.8rem;
+    font-size: 3rem;
+    line-height: 5.1rem;
+}
+
+.hikari3-content1 {
+    margin-bottom: 5.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.hikari3-texts1 {
+    margin-right: 8.2rem;
+}
+
+.hikari3-text1 {
+    margin-bottom: 2rem;
+    line-height: 3.1rem;
+}
+
+/* hikari3-content2 */
+.hikari3-content2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.hikari3-contatiner1 {
+    margin-right: 9.3rem;
+}
+
+.hikari3-set1 {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* hikari4 */
+#hikari4 {
+    margin-bottom: 9.6rem;
+}
+
+.hikari4-img2 {
+    margin-right: 10.8rem;
+    width: 50%;
+    max-width: 451px;
+    max-height: 272px;
+}
+
+.hikari4-text1 {
+    margin: 4.9rem 0 5.9rem;
+    max-width: 665px;
+}
+
+.hikari4-content1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* hikari5 */
+#hikari5 {
+    margin-bottom: 6.3rem;
+}
+
+.hikari5-img1 {
+    width: 50%;
+    max-width: 30.9rem;
+    max-height: 23.7rem;
+}
+
+.hikari5-img2 {
+    width: 50%;
+    max-width: 30.9rem;
+    max-height: 27.8rem;
+}
+
+/* hikari5-content1 */
+.hikari5-content1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.hikaari5-content1-texts1 {
+    margin-right: 14.4rem;
+}
+
+.hikaari5-content1-text1 {
+    margin-bottom: 2rem;
+    line-height: 3.1rem;
+}
+
+/* hikari5-content2 */
+.hikari5-content2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hikari5-contenttext2 {
+    margin-right: 10rem;
+}
+
+/* hikari6 */
+#hikari6 {
+    margin-bottom:
+}
+
+.hikari6-texts1 {
+    margin-top: 3.5rem;
+    max-width: 68.4rem;
+}
+
+.hikari6-text1 {
+    margin-bottom: 2rem;
+    line-height: 3.1rem;
+}
+
+.hikari-button1 {
+    max-width: 45.7rem;
+    max-height: 10.7rem;
+    margin: 8rem auto;
+    padding: 4rem;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    font-size: 2.3rem;
+    color: #ffffff;
+    background-color: #1B1B1B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

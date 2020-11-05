@@ -1,0 +1,90 @@
+html {
+    font-size: 62.5%;
+    font-family :
+	"YuMincho",    /* Mac用 */
+	"Yu Mincho", /* Windows用 */
+	serif;
+}
+
+body {
+    color: #1b1b1b;
+    margin: 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+h2, h3 {
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+h2 {
+    margin-bottom: 6.6rem;
+}
+
+h3 {
+    margin-bottom: 4rem;
+}
+
+p {
+    line-height: 3.4rem;
+    font-size: 2rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+header {
+    height: 16.4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ffffff;
+    background-color: #1b1b1b;
+}
+
+.header-left {
+    height: 100%;
+}
+
+.header-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-list {
+    margin: 0 3rem;
+    font-size: 2rem;
+    color: white;
+}
+
+/* footer部分 */
+footer {
+    height: 11.6rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 1.2rem;
+}
